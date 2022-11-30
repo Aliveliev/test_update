@@ -1,0 +1,2 @@
+{appDir: test_updater, appExecName: my_app.py, appIdentifier: com.sample.nothing, appRepo: 'http://www.example.com/project.git',
+  backupOn: false, createLaunchScriptOn: false}

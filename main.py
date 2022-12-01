@@ -9,11 +9,15 @@ class MainWindow(QMainWindow):
 
         button = QPushButton('Update', self)
         button.move(50,50)
-        button.clicked.connect(self.on_click)
+        button.clicked.connect(self.update)
+
+        button = QPushButton('Exit', self)
+        button.move(50,100)
+        button.clicked.connect(self.close)
 
         self.show()
 
-    def on_click(self):
+    def update(self):
         updateNow()
 
 
